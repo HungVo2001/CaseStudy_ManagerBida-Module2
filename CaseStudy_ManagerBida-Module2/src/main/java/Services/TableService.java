@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class TableService {
     public static List<Table> listTable;
 
-    public static String path = "C:\\codegym\\Module2\\CaseStudy\\src\\main\\java\\data\\BidaManager.txt";
+    public static String path = "C:\\codegym\\CaseStudy_Module2\\CaseStudy_ManagerBida-Module2\\src\\main\\java\\data\\BidaManager.txt";
     public static Scanner sc = new Scanner(System.in);
     public TableService(){
         listTable = ReadWriteFile.readFile(path, Config.TYPE_BIDA);

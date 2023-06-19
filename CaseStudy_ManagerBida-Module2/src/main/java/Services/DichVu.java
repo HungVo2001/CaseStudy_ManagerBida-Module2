@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class DichVu {
     public static List<Service> listService;
-    public static String path = "C:\\codegym\\Module2\\CaseStudy\\src\\main\\java\\data\\DichVuManager.txt";
+    public static String path = "C:\\codegym\\CaseStudy_Module2\\CaseStudy_ManagerBida-Module2\\src\\main\\java\\data\\DichVuManager.txt";
     public static Scanner sc = new Scanner(System.in);
     public DichVu(){
         listService = ReadWriteFile.readFile(path, Config.TYPE_DICHVU);

@@ -16,7 +16,7 @@ public class DetailService {
     public static OrderTableService orderTableService = new OrderTableService();
 
     public  List<Detail> listDetail;
-    public static final String pathChiTietDichVu = "C:\\codegym\\Module2\\CaseStudy\\src\\main\\java\\data\\ChiTietDichVu.txt";
+    public static final String pathChiTietDichVu = "C:\\codegym\\CaseStudy_Module2\\CaseStudy_ManagerBida-Module2\\src\\main\\java\\data\\ChiTietDichVu.txt";
 
     public static Scanner sc = new Scanner(System.in);
 

@@ -26,8 +26,8 @@ public class OrderTableService {
     public static List<Detail> listAllDetail;
     public static OrderTableService orderTableService = new OrderTableService();
     public static List<Service> listOrderItem;
-    public static final String pathThueBan = "C:\\codegym\\Module2\\CaseStudy\\src\\main\\java\\data\\ThueBanManager.txt";
-    public static final String pathChiTietDichVu = "C:\\codegym\\Module2\\CaseStudy\\src\\main\\java\\data\\ChiTietDichVu.txt";
+    public static final String pathThueBan = "C:\\codegym\\CaseStudy_Module2\\CaseStudy_ManagerBida-Module2\\src\\main\\java\\data\\ThueBanManager.txt";
+    public static final String pathChiTietDichVu = "C:\\codegym\\CaseStudy_Module2\\CaseStudy_ManagerBida-Module2\\src\\main\\java\\data\\ChiTietDichVu.txt";
     public static Scanner sc = new Scanner(System.in);
 
     public OrderTableService() {
